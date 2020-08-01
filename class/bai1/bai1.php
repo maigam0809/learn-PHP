@@ -12,3 +12,15 @@ $result = $a . "" . $b;
 echo "<br>$result";
 
 // câu điều khiển rẽ nhánh trong php có 2 loại là if-else hoặc switch case 
+?>
+<?php
+$x = 6;
+if ($x == 10) {
+echo "I have $x dollars";
+}
+elseif ($x > 7 && $x < 10) {
+echo "I have $x children";
+}
+elseif ($x == 20) {
+echo "I have";
+
